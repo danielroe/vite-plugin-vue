@@ -39,6 +39,7 @@ export interface Options {
       | 'fs'
       | 'reactivityTransform'
       | 'hoistStatic'
+      | 'globalTypeFiles'
     >
   >
   template?: Partial<
